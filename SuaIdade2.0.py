@@ -1,9 +1,10 @@
 """
 Programa  coleta dados do usuário coletando uma str e add em uma lista, depois
 convertendo para int.
+ABAIXO CRIEI UM PSEUDOCÓDIGO, APESAR DEEXISTER MILHARES. PARA MELHORAR MEU ENTENDIMENTO!
                            # coletar str
-                           def:input:
                            list:
+                           def:input:
                            if:
                            elif:
                            
