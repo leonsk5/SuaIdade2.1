@@ -50,9 +50,10 @@ while True:
         ano_nascimento = int(ano_nascimento) # Tive que converter, o len não converteu no if. - ???
         ano_atual = 2020
         idade = ano_atual - ano_nascimento
-        # erro na variável {n}
+        
         print(f"{nome()} tem {idade} Anos!") # printando a variável {n} que é na verdade a função nome().
         break
+        
     elif len(ano_nascimento) != 4 or len(ano_nascimento) == "".isnumeric():
         print("Apenas 4 digitos numericos.")
 
