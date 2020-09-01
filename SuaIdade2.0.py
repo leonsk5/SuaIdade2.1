@@ -2,20 +2,28 @@
 Programa  coleta dados do usuário coletando uma str e add em uma lista, depois
 convertendo para int.
                            # coletar str
-                           def:
+                           def:input:
                            list:
-                           input:
+                           if:
+                           elif:
+                           
                            # coletar int
                            while:
                            if:
+                           append:
+                           int:
+                           print:
+                           break:
+                           elif
+                           
 
 """
 lista_nome = []
 
 i = 0
-while i < 1:
+while i < 1: # ainda não solucionado o problema do loop
+  
         def nome(nome = input("Digite seu nome: ")):
-
                 lista_nome.append(nome)
                 if nome == None:
                         print("Digite alguma coisa.")
