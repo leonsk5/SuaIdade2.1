@@ -22,7 +22,7 @@ ABAIXO CRIEI UM PSEUDOCÓDIGO, APESAR DE EXISTER MILHARES. PARA MELHORAR MEU ENT
 lista_nome = []
 
 
-while True:  # ainda não solucionado o problema do loop
+while True:  # AINDA COM PROBLEMA DO LOOP :(
 
     def nome(nome):
         nome = input("Digite seu nome: ")
