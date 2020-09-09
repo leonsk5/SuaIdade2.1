@@ -21,20 +21,21 @@ ABAIXO CRIEI UM PSEUDOCÓDIGO, APESAR DE EXISTER MILHARES. PARA MELHORAR MEU ENT
 """
 lista_nome = []
 
-i = 0
-while i < 1: # ainda não solucionado o problema do loop
-  
-        def nome(nome = input("Digite seu nome: ")):
-                lista_nome.append(nome)
-                if nome == None:
-                        print("Digite alguma coisa.")
-                elif not nome.isalpha():
-                        print("Apenas letras.")
-                elif len(nome) < 3:
-                        print("Nome muito curto.")
-                return nome
-        i = i + 1
-nome()
+
+while True:  # ainda não solucionado o problema do loop
+
+    def nome(nome):
+        nome = input("Digite seu nome: ")
+        lista_nome.append(nome)
+        if not nome.isalpha():
+            print("Apenas letras.")
+        elif len(nome) < 3:
+            print("Nome muito curto.")
+
+        return nome
+
+    n = nome(nome)
+    break
 """
 Aqui abaixo começa a coleta da str converte para int e add na lista
 """
@@ -51,7 +52,7 @@ while True:
         ano_atual = 2020
         idade = ano_atual - ano_nascimento
         
-        print(f"{nome()} tem {idade} Anos!") # printando a variável {n} que é na verdade a função nome().
+        print(f"{n} tem {idade} Anos!") # printando a variável {n} que é na verdade a função nome().
         break
         
     elif len(ano_nascimento) != 4 or len(ano_nascimento) == "".isnumeric():
