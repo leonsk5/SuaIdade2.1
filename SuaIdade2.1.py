@@ -23,6 +23,7 @@ lista_nome = []
 
 while True: # Um  loop infinito, que é o ideal para mim nesse caso
         n = input("Digite seu nome: ")
+        lista_nome.append(n)
         if not n.isalpha():
             print("Só letras.")
         elif len(n) < 3:
