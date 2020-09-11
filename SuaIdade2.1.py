@@ -22,7 +22,7 @@ ABAIXO CRIEI UM PSEUDOCÓDIGO, APESAR DE EXISTER MILHARES. PARA MELHORAR MEU ENT
 lista_nome = []
 
 while True: # Um  loop infinito, que é o ideal para mim nesse caso
-        n = input("Digite: ")
+        n = input("Digite seu nome: ")
         if not n.isalpha():
             print("Só letras.")
         elif len(n) < 3:
