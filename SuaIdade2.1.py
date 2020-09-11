@@ -21,21 +21,16 @@ ABAIXO CRIEI UM PSEUDOCÓDIGO, APESAR DE EXISTER MILHARES. PARA MELHORAR MEU ENT
 """
 lista_nome = []
 
-
-while True:  # AINDA COM PROBLEMA DO LOOP :(
-
-    def nome(nome):
-        nome = input("Digite seu nome: ")
-        lista_nome.append(nome)
-        if not nome.isalpha():
-            print("Apenas letras.")
-        elif len(nome) < 3:
+while True: # Um  loop infinito, que é o ideal para mim nesse caso
+        n = input("Digite: ")
+        if not n.isalpha():
+            print("Só letras.")
+        elif len(n) < 3:
             print("Nome muito curto.")
-
-        return nome
-
-    n = nome(nome)
-    break
+            continue
+        else:
+            break
+    
 """
 Aqui abaixo começa a coleta da str converte para int e add na lista
 """
