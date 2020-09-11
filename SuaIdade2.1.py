@@ -24,6 +24,7 @@ lista_nome = []
 while True: # Um  loop infinito, que é o ideal para mim nesse caso
         n = input("Digite seu nome: ")
         lista_nome.append(n)
+        letra_maiscula = n.capitalize()
         if not n.isalpha():
             print("Só letras.")
         elif len(n) < 3:
@@ -48,7 +49,7 @@ while True:
         ano_atual = 2020
         idade = ano_atual - ano_nascimento
         
-        print(f"{n} tem {idade} Anos!") # printando a variável {n} que é na verdade a função nome().
+        print(f"{letra_maiscula} tem {idade} Anos!") # printando a variável {n} que é na verdade a função nome().
         break
         
     elif len(ano_nascimento) != 4 or len(ano_nascimento) == "".isnumeric():
