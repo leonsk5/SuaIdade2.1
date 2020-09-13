@@ -32,7 +32,8 @@ def suaIdade(nome, ano_nascimento):
     while True: 
         nome = input("Digite seu nome: ")
         lista_nome.append(nome) # add input usuário como um string na lista.
-
+        l_maiuscula = nome.capitalize()
+        
         if not nome.isalpha():
             print("apenas letras")
         elif len(nome) < 3:
