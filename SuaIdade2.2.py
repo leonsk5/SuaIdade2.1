@@ -25,7 +25,7 @@ LÓGICO TEM BUGS, QUE SERÃO CORRIGIDOS COM O TEMPO!
 
 """
 
-def suaIdade(nome, ano_nascimento): 
+def suaIdade(nome=None, ano_nascimento=None): 
     lista_nome = [] # lista para adicionar o nomes.
     lista_ano_nascimento = [] # adicionar anos nascimento.
     
