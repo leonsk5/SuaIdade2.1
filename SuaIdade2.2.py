@@ -25,7 +25,7 @@ LÓGICO TEM BUGS, QUE SERÃO CORRIGIDOS COM O TEMPO!
 
 """
 
-def suaIdade(nome=None, ano_nascimento=None): 
+def suaIdade(): 
     lista_nome = [] # lista para adicionar o nomes.
     lista_ano_nascimento = [] # adicionar anos nascimento.
     
@@ -56,7 +56,7 @@ def suaIdade(nome=None, ano_nascimento=None):
             print("Apenas 4 digitos numericos.")
             continue
         return nome, ano_nascimento
-suaIdade(nome=1, ano_nascimento=2)
+suaIdade()
 
 
 
